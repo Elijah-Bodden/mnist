@@ -22,7 +22,7 @@ __version__ = '0.2.2'
 # `datasets_url` and `temporary_dir` can be set by the user using:
 # >>> mnist.datasets_url = 'http://my.mnist.url'
 # >>> mnist.temporary_dir = lambda: '/tmp/mnist'
-datasets_url = 'http://yann.lecun.com/exdb/mnist/'
+datasets_url = 'https://storage.googleapis.com/cvdf-datasets/mnist/'
 temporary_dir = tempfile.gettempdir
 
 
